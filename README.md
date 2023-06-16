@@ -9,7 +9,7 @@ Total number of species: 271
 Total number of let-7 family of miRNAs: 740
 Total number of species codes with let-7 miRNA: 116
 
-## Question number 3: what is the current version of miRBase?
+## Question number 3: the current version of miRBase?
 Current version of miRBase: 22.1
 ### Task: a plot to show which let miRNAs are present in each species
 ![Figure_1](https://github.com/samrawitfesseha0/take_home_exam/assets/130226497/2fd6b9fc-423d-43cb-86f5-dd9e57f18d5d)
