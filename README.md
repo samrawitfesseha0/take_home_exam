@@ -1,19 +1,19 @@
 # Take home exam
 
-## Question number 1
+## Question number 1: total number of species in the current miRBase release?
 Total number of species: 271
-### Task
+### Task: an ordered plot (i.e. from lowest to highest)
 ![Figure_1](https://github.com/samrawitfesseha0/take_home_exam/assets/130226497/09963eb4-a2fb-4a5c-8f84-03a6f67a5abd)
 
-## Question number 2
+## Question number 2: how many **let-7** miRNAs are there in the current release of miRBase
 Total number of let-7 family of miRNAs: 740
 Total number of species codes with let-7 miRNA: 116
 
-## Question number 3
+## Question number 3: what is the current version of miRBase?
 Current version of miRBase: 22.1
-### Task
+### Task: a plot to show which let miRNAs are present in each species
 ![Figure_1](https://github.com/samrawitfesseha0/take_home_exam/assets/130226497/2fd6b9fc-423d-43cb-86f5-dd9e57f18d5d)
-### Levenshtein Distance
+### Average Levenshtein Distance for the let-7 miRNAs for each species
 Average Levenshtein distance for let-7 miRNA in species 'cel-': 15.00
 Average Levenshtein distance for let-7 miRNA in species 'hsa-': 9.78
 Average Levenshtein distance for let-7 miRNA in species 'mmu-': 9.90
@@ -95,7 +95,7 @@ Average Levenshtein distance for let-7 miRNA in species 'sbo-': 2.00
 Average Levenshtein distance for let-7 miRNA in species 'pha-': 2.57
 Average Levenshtein distance for let-7 miRNA in species 'oga-': 2.57
 
-## Question number 4
+## Question number 4: average Levenshtein distance among all pairs for human
 Pairwise Levenshtein distances for hsa-let-7a-5p MIMAT0000062 Homo sapiens let-7a-5p
 Levenshtein distance between hsa-let-7a-5p MIMAT0000062 Homo sapiens let-7a-5p and hsa-let-7a-3p MIMAT0004481 Homo sapiens let-7a-3p: 14
 Levenshtein distance between hsa-let-7a-5p MIMAT0000062 Homo sapiens let-7a-5p and hsa-let-7a-2-3p MIMAT0010195 Homo sapiens let-7a-2-3p: 15
@@ -421,10 +421,10 @@ Levenshtein distance between hsa-let-7i-3p MIMAT0004585 Homo sapiens let-7i-3p a
 Levenshtein distance between hsa-let-7i-3p MIMAT0004585 Homo sapiens let-7i-3p and hsa-let-7g-3p MIMAT0004584 Homo sapiens let-7g-3p: 5
 Levenshtein distance between hsa-let-7i-3p MIMAT0004585 Homo sapiens let-7i-3p and hsa-let-7i-5p MIMAT0000415 Homo sapiens let-7i-5p: 12
 
-### Task
+### Task: plot for all species
 ![Figure_1](https://github.com/samrawitfesseha0/take_home_exam/assets/130226497/f1cf5062-2510-44c3-9cac-eedd2a6d8389)
 
-## Question number 5
+## Question number 5: the levenshtein distance for each let-7 miRNA across all species
 Species: ami-let-7a-3p - chi-let-7a-3p | Levenshtein Distance: 2
 Species: ami-let-7a-3p - tch-let-7a-5p | Levenshtein Distance: 12
 Species: ami-let-7a-3p - tch-let-7a-3p | Levenshtein Distance: 2
@@ -1643,7 +1643,7 @@ Species: pha-let-7a - oga-let-7a | Levenshtein Distance: 0
 Total 'let-7a' miRNAs: 121
 Average Levenshtein Distance of 'let-7a' miRNAs: 8.60
 
-### Task
+### Task: Plot for all let-7 miRNA
 The Average Levenshtein distance among all pairs for miRNA family let-7-: 10.20
 The frequency of miRNA family let-7-: 38
 The Average Levenshtein distance among all pairs for miRNA family let-7a: 8.60
