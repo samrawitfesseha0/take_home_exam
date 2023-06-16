@@ -1,4 +1,4 @@
-# Take_home_exam
+# Take home exam
 
 ## Question number 1
 Total number of species: 271
